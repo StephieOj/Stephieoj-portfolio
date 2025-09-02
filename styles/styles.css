@@ -3,8 +3,8 @@
      background-color: #1F0F3A;
 
   }
-  
-  .neon-text {
+
+  .secondary-color {
         font-family: monospace, Consolas, 'Courier New';
        color: #64FFDA;
        text-shadow: 0 0 5px #64FFDA, 0 0 10px #64FFDA, 0 0 15px #64FFDA;
@@ -14,24 +14,6 @@
   background-color: #1F0F3A;
   text-align: left;
   padding: 160px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-    }
-  .hero-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-
-  .profile-pic-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 250px;
-    min-width: 150px;
   }
     p{
         line-height: 2;
@@ -41,7 +23,6 @@
       .nav-link {
        color: #64FFDA !important;
         font-family: monospace, Consolas, 'Courier New';
-    
     }
 
     .intro-text {
@@ -62,7 +43,7 @@
     }
 
 /* Button*/ 
-button {
+.cta-button {
   --green: #64FFDA;
   font-size: 15px;
   padding: 20px 40px;
@@ -79,12 +60,12 @@ button {
   box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
 }
 
-button:hover {
+.cta-button:hover {
   color: #82ffc9;
   box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
 }
 
-button:before {
+.cta-button:before {
   content: "";
   position: absolute;
   left: -4em;
@@ -95,7 +76,7 @@ button:before {
   background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%,rgba(27, 253, 156, 0.1) 60% , transparent 100%);
 }
 
-button:hover:before {
+.cta-button:hover:before {
   transform: translateX(15em);
 }
 a {
@@ -109,3 +90,4 @@ a {
   object-fit: cover;
   padding-top: 20px;
 }
+
