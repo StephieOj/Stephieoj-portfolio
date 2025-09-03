@@ -42,4 +42,4 @@
 - I want to add an image to the right hand side of the text in my hero section.
 - Not sure if I want to add my social media links to my home page or just the contact me page. 
 - Possibly add pictures of my projects that link to the portfolio page which will contain more info. 
-- 
+- Add CSS Variables

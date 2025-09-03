@@ -37,10 +37,13 @@
       font-size: 50px;
     }
 
-    .quote-color {
+    .tagline {
       color: #CCD6F6;
       padding-bottom: 50px;
+      line-height: 2;
+      
     }
+
 
 /* Button*/ 
 .cta-button {
@@ -84,4 +87,9 @@ a {
   color: inherit;
 }
 
-
+.profile-img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  margin-left: 8em;
+}
