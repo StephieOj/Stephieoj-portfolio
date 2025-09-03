@@ -135,12 +135,27 @@ footer p {
   padding: 20px 0;
   
 }
-@media (max-width: 576px) {
+
+@media (max-width: 900px) {
   h1 {
-    font-size: 48px;
-    line-height: 1.5;
+    font-size: 44px;
+    line-height: 2;
   }
+
   h2 {
-    font-size: 32px;
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    text-align: center;
   }
 }
+
