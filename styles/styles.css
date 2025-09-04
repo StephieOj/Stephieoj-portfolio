@@ -6,9 +6,17 @@
 
   p {
     color: aliceblue;
-    font-size:20px;
+    font-size:15px;
+    line-height: 1.75;
+    padding: 10px 0;
     font-family: monospace, Consolas, 'Courier New';
 
+  }
+  .role-header {
+    color: white;
+    font-size: 18px;
+    font-family: monospace, Consolas, 'Courier New';
+    padding: 10px 0 10px 0;
   }
 .featured-text {
     color: #64FFDA;
@@ -26,7 +34,7 @@
 
   .section-header {
     color: #64FFDA;
-    font-size: 30px;
+    font-size: 35px;
     font-family: monospace, Consolas, 'Courier New';
   } 
 
