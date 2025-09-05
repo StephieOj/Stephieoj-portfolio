@@ -57,8 +57,11 @@
     color: #64FFDA !important;
     font-family: monospace, Consolas, 'Courier New';
     }
+    .active{
+      font-weight: bold;
+      text-decoration: underline;
+    }
 
-    
    .hero{
   background-color: #1F0F3A;
   text-align: left;
@@ -183,12 +186,6 @@ a {
   right: 10px;
 }
 
-
-
-
-
-
-
 .content h3 {
   color: #64FFDA;
   font-size: 24px;
@@ -218,7 +215,12 @@ footer .contact-box {
   text-align: left;
   margin-bottom: 40px;
 }
-
+footer p {
+  color: #CCD6F6;
+  font-size: 18px;
+  font-family: monospace, Consolas, 'Courier New';
+  line-height: 1.5;
+}
 .contact-box p {
   margin: 0;
 }
@@ -239,7 +241,6 @@ footer .email-link {
   text-decoration: none;
   font-family: monospace, Consolas, 'Courier New';
   font-size: 24px;
-
 }
 footer .email-link:hover {
   color: #CCD6F6;

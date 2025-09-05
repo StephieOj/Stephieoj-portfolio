@@ -8,27 +8,28 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/script.js"></script>
+  <script src="https://kit.fontawesome.com/7978477a0c.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark style= background-color: #e3f2fd">
  <div class="container-fluid">
-    <a class="navbar-brand secondary-color" href="#">Stephie Ojinta</a>
+    <a class="navbar-brand secondary-color" href="/">Stephie Ojinta</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" aria-current="page" href="/" title="Go to Home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="/about.html" title="Learn more About Me">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link active" href="/portfolio.html" title="View My Portfolio">Portfolio</a>
         </li>
        <li class="nav-item">  
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="/contact.html" title="Get in Touch">Contact</a>
         </li>
       </ul>
     </div>
@@ -44,7 +45,7 @@
             <img
               src="src/yogurt.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Yogurt Project"
             />
             <h3 class="text-center m-0">Yogurt Project</h3>
             <p class="text-center">Built with HTML and CSS</p>
@@ -53,7 +54,7 @@
             <img
               src="src/weather.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Weather Project"
             />
             <h3 class="text-center m-0">Weather Project</h3>
             <p class="text-center">
@@ -64,7 +65,7 @@
             <img
               src="src/dictionary.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Dictionary App"
             />
             <h3 class="text-center m-0">Dictionary App</h3>
             <p class="text-center">
@@ -75,7 +76,7 @@
             <img
               src="src/translation.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Translation App"
             />
             <h3 class="text-center m-0">Translation App</h3>
             <p class="text-center">
@@ -85,6 +86,32 @@
         </div>
       </div>
     </div> 
-       
+     <footer>
+      <div class="contact-box d-flex justify-content-evenly mb-5">
+        <div>
+        <h4>Work Inquiry</h4>
+        <p> Let's connect and discuss your project requirements.</p>
+        </div>
+      <div>
+      <a href = "/contact.html">
+      <button class="cta-button" title="Get in Touch"> Contact me</button>
+      </a>
+      </div>
+      </div>
+      <a href = "mailto:stephieoj.codes@gmail.com" class="email-link" title="Email Me">stephieoj.codes@gmail.com</a>
+      <div class="social-links mt-4">
+        <a href="https://github.com/StephieOj" title="View My GitHub Profile" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/stephanie-ojinta/" title="View My LinkedIn Profile" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-square-linkedin"></i>
+        </a>
+        <a href="https://x.com/stephieoj" title="View My X Profile" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-square-x-twitter"></i>
+        </a>
+        <p class="text-center">Follow me on social media for updates!</p>
+      </div>
+  </div>
+    </footer>   
 </body>
 </html>
