@@ -36,6 +36,8 @@
     margin-top: 22px;
     margin-bottom: 80px;
   }
+
+
   .project-header {
     color: #64FFDA;
     font-size: 24px;
@@ -255,17 +257,23 @@ footer .email-link:hover {
   h2 {
     font-size: 44px;
   }
+    h3 {
+    font-size: 26px;
+  }
 
   .hero {
     padding: 80px 20px;
+    text-align: center;
   }
 
-  .project-desciption {
+  .project-description {
     padding: 0;
     text-align: center;
-  }
-  .hero {
-    text-align: center;
-  }
+
 }
+footer .social-links a {
+  font-size: 30px;
+  margin: 0 10px;
+}
+  }
 
