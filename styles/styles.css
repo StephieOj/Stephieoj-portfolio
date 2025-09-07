@@ -248,6 +248,11 @@ footer .email-link {
 footer .email-link:hover {
   color: #CCD6F6;
 }
+footer .open-source {
+font-size: 10px;
+margin: 50px;
+color: aliceblue;
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -297,5 +302,4 @@ footer .social-links a {
   font-size: 30px;
   margin: 0 10px;
 }
-  
-
+}
