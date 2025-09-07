@@ -80,6 +80,7 @@
     .header-name {
       color: white;
       font-size: 50px;
+      margin-bottom: 30px;
     }
 
     .tagline {
@@ -262,18 +263,39 @@ footer .email-link:hover {
   }
 
   .hero {
-    padding: 80px 20px;
+    padding: 50px 20px;
     text-align: center;
+    }
+
+  .tagline { 
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 
   .project-description {
     padding: 0;
     text-align: center;
-
 }
+
+.container h1 {
+   padding: 80px 20px;
+   text-align: center;
+}
+.about.text {
+   margin: 10px;
+}
+   .container button {
+     display: block; /* Makes the button a block element */
+    margin: 0 auto; /* Centers horizontally */
+    
+   }
+   .contact-wrapper {
+      text-align: center;
+   }
+
 footer .social-links a {
   font-size: 30px;
   margin: 0 10px;
 }
-  }
+  
 
