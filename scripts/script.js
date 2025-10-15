@@ -6,6 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		cursor: '|',
 	});
 	typewriter
-		.typeString('I build cool things with code.')
+		.typeString('I build cool things with code </>')
 		.start();
 });
